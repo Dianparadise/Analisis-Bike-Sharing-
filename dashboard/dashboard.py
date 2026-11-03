@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 #LOAD DATA
 @st.cache_data
 def load_data():
-    df_day = pd.read_csv("submission/dashboard/day_clean.csv")
-    df_hour = pd.read_csv("submission/dashboard/hour_clean.csv")
+    df_day = pd.read_csv("dashboard/day_clean.csv")
+    df_hour = pd.read_csv("dashboard/hour_clean.csv")
     return df_day,df_hour
 df_day,df_hour = load_data()
 
